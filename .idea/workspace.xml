@@ -1,7 +1,671 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SpringMVCJPA2HibernateManyToManyCRUDExample:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="88fbd686-3034-4061-b15b-e345c3e7a2cb" name="Default" comment="" />
+    <list default="true" id="88fbd686-3034-4061-b15b-e345c3e7a2cb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/about-us.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/checkout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/compare.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/contact-us.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/elements.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/faq.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sitemap.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/wishlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/owl.transitions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/persian-fonts/BKoodakBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/persian-fonts/BKoodakBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/persian-fonts/BKoodakBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/persian-fonts/WYekan.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/persian-fonts/WYekan.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/persian-fonts/WYekan.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/responsive-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/stylesheet-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/stylesheet-skin2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/stylesheet-skin3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/stylesheet-skin4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/banner/cms-block.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/banner/responsive.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/banner/sample-banner-1-400x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/banner/sample-banner-2-400x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/banner/sample-banner-3-400x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/banner/sample-banner-4-400x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/banner/sample-banner-5-400x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/banner/small-banner-265x350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/banner/small-banner1-265x350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/bullet-dark-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/bullet-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ae.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/af.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/al.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/am.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/an.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/as.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/at.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/au.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/aw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ax.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/az.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/bb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/bd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/be.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/bf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/bh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/bi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/bj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/bm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/bn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/bo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/br.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/bs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/bt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/bv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/bw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/by.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/bz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/cc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/cd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/cf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/cg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ci.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/cl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/cm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/cn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/co.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/cr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/cs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/cu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/cx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/cy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/cz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/de.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/dj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/dk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/dm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/do.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/dz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/eg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/eh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/england.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/er.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/es.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/et.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/fam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/fi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/fj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/fk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/fm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/fo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/fr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/gb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/gd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/gh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/gi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/gl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/gm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/gn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/gp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/gq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/gr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/gs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/gt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/gu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/gw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/gy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/hk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/hn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/hr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ht.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/hu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/id.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/il.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/io.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/iq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/is.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/it.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/jm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/jo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/jp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/kg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/kh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ki.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/km.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/kn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/kp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/kr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/kw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/kz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/la.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/lb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/lc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/li.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/lk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/lr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/lt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/lu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/lv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/mc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/md.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/mg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/mh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/mk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/mm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/mn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/mo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/mp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/mq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/mr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/mt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/mu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/mv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/mw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/mx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/my.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/mz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/na.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/nc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/nf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ni.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/nl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/np.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/nr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/nu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/nz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/om.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/pa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/pe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/pf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/pg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/pk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/pl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/pm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/pn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/pr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/pt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/pw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/qa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/rw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/sa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/sb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/sc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/scotland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/sd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/se.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/sg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/sh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/si.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/sk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/sl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/sn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/so.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/sr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/st.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/sv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/sy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/sz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/tc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/td.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/tf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/tg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/th.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/tj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/tk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/tl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/tm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/tn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/to.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/tr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/tt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/tv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/tw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/tz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/um.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/uy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/uz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/va.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/vc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/vg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/vi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/vn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/vu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/wales.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/wf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ws.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/ye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/yt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/za.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/zm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/flags/zw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/grabbing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/no_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/patterns/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/payment/payment_2checkout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/payment/payment_american.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/payment/payment_cirrus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/payment/payment_delta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/payment/payment_direct.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/payment/payment_discover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/payment/payment_ebay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/payment/payment_google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/payment/payment_maestro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/payment/payment_mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/payment/payment_moneybookers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/payment/payment_paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/payment/payment_sagepay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/payment/payment_solo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/payment/payment_switch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/payment/payment_visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/payment/payment_western_union.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/FinePix-Long-Zoom-Camera-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/FinePix-Long-Zoom-Camera-50x50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/apple_cinema_30-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/apple_cinema_30-50x50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/apple_logo-100x100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/apple_logo-60x60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/canon_eos_5d_1-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/canon_logo-100x100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/canon_logo-60x60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/hp_2-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/hp_3-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/hp_logo-60x60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/htc_logo-60x60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/iphone_1-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/iphone_1-50x50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/iphone_6-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/iphone_6-50x50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/ipod_classic_1-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/ipod_nano_1-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/ipod_shuffle_1-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/ipod_touch_1-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_1-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_1-50x50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_2-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_2-50x50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_3-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_3-50x50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_4-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_4-50x50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_5-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_5-50x50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_air_1-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_air_1-350x350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_air_1-500x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_air_1-50x50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_air_1-66x66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_air_1-90x90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_air_2-350x350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_air_2-500x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_air_2-66x66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_air_3-350x350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_air_3-500x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_air_3-66x66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_air_4-350x350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_air_4-500x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_air_4-66x66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_pro_1-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_pro_1-50x50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/macbook_pro_1-90x90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/nikon_d300_1-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/nikon_d300_1-50x50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/nikon_d300_4-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/nikon_d300_4-50x50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/nikon_d300_5-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/nikon_d300_5-50x50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/palm_logo-60x60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/palm_treo_pro_1-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/samsung_tab_1-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/samsung_tab_1-50x50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/samsung_tab_1-90x90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/sony_logo-60x60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/sony_vaio_1-200x200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/sony_vaio_1-50x50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/product/store_location-275x180.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/progress.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/slider/banner-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/slider/banner-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/slider/banner-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/bebo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/blogger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/delicious.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/digg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/dopplr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/ember.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/evernote.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/flickr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/forrst.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/friendfeed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/google_plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/googletalk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/grooveshark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/lastfm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/mixx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/myspace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/newsvine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/openid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/pandora.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/picasa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/pinterest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/posterous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/readernaut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/reddit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/rss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/sharethis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/skype.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/spotify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/stumbleupon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/technorati.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/tumblr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/viadeo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/viddler.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/vimeo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/virb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/vk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/xing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/yahoobuzz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/yelp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/socialicons/youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap/css/bootstrap-flipped.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap/css/bootstrap-flipped.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap/css/bootstrap-flipped.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap/css/bootstrap-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap/css/bootstrap-rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap/css/bootstrap-rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery-2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery.dcjqaccordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery.dcjqaccordion.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery.easing-1.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery.elevateZoom-3.0.8.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery.elevatezoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/swipebox/lib/ios-orientationchange-fix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/swipebox/lib/jquery-2.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/swipebox/src/css/swipebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/swipebox/src/css/swipebox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/swipebox/src/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/swipebox/src/img/icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/swipebox/src/img/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/swipebox/src/js/jquery.swipebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/swipebox/src/js/jquery.swipebox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/assets/coloredbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/assets/gridtile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/assets/gridtile_3x3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/assets/gridtile_3x3_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/assets/gridtile_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/assets/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/assets/sources/fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/assets/sources/fr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/assets/sources/ig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/assets/sources/post.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/assets/sources/revolution_slide1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/assets/sources/revolution_slide2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/assets/sources/tw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/assets/sources/vm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/assets/sources/wc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/assets/sources/yt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/css/closedhand.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/css/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/css/layers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/css/navigation-skins/ares.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/css/navigation-skins/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/css/navigation-skins/dione.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/css/navigation-skins/erinyen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/css/navigation-skins/gyges.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/css/navigation-skins/hades.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/css/navigation-skins/hebe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/css/navigation-skins/hephaistos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/css/navigation-skins/hermes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/css/navigation-skins/hesperiden.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/css/navigation-skins/metis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/css/navigation-skins/persephone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/css/navigation-skins/uranus.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/css/navigation-skins/zeus.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/css/navigation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/css/openhand.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/css/settings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/font-awesome/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/pe-icon-7-stroke/css/helper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/pe-icon-7-stroke/css/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/pe-icon-7-stroke/fonts/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/pe-icon-7-stroke/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/revicons/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/revicons/revicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/revicons/revicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/revicons/revicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/fonts/revicons/revicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/info.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/extensions/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/extensions/revolution.extension.actions.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/extensions/revolution.extension.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/extensions/revolution.extension.kenburn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/extensions/revolution.extension.layeranimation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/extensions/revolution.extension.migration.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/extensions/revolution.extension.navigation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/extensions/revolution.extension.parallax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/extensions/revolution.extension.slideanims.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/extensions/revolution.extension.video.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/extensions/source/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/extensions/source/revolution.extension.actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/extensions/source/revolution.extension.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/extensions/source/revolution.extension.kenburn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/extensions/source/revolution.extension.layeranimation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/extensions/source/revolution.extension.migration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/extensions/source/revolution.extension.navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/extensions/source/revolution.extension.parallax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/extensions/source/revolution.extension.slideanims.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/extensions/source/revolution.extension.video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/jquery.themepunch.enablelog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/jquery.themepunch.revolution.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/jquery.themepunch.tools.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/source/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/source/jquery.themepunch.enablelog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/source/jquery.themepunch.revolution.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/js/source/jquery.themepunch.tools.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/php/facebook/class-facebook.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/php/flickr/class-flickr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/php/instagram/class-instagram.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/php/twitter/RestApi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/php/twitter/class-twitter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/php/twitter/connection/Application.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/php/twitter/connection/ConnectionAbstract.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/php/twitter/connection/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/php/vimeo/class-vimeo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/revolution/php/youtube/class-youtube.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SpringMVCJPA2HibernateManyToManyCRUDExample_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SpringMVCJPA2HibernateManyToManyCRUDExample_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVCJPA2HibernateManyToManyCRUDExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVCJPA2HibernateManyToManyCRUDExample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrationsuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrationsuccess.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userslist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userslist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringMVCJPA2HibernateManyToManyCRUDExample/WEB-INF/classes/com/websystique/springmvc/controller/AppController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringMVCJPA2HibernateManyToManyCRUDExample/WEB-INF/classes/com/websystique/springmvc/controller/AppController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringMVCJPA2HibernateManyToManyCRUDExample/WEB-INF/lib/javax.servlet.jsp-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringMVCJPA2HibernateManyToManyCRUDExample/WEB-INF/views/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringMVCJPA2HibernateManyToManyCRUDExample/WEB-INF/views/registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringMVCJPA2HibernateManyToManyCRUDExample/WEB-INF/views/registrationsuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringMVCJPA2HibernateManyToManyCRUDExample/WEB-INF/views/registrationsuccess.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringMVCJPA2HibernateManyToManyCRUDExample/WEB-INF/views/userslist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringMVCJPA2HibernateManyToManyCRUDExample/WEB-INF/views/userslist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringMVCJPA2HibernateManyToManyCRUDExample/static/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringMVCJPA2HibernateManyToManyCRUDExample/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/websystique/springmvc/controller/AppController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/websystique/springmvc/controller/AppController.class" afterDir="false" />
+    </list>
     <ignored path="SpringMVCJPA2HibernateManyToManyCRUDExample.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -13,44 +677,138 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="SpringMVCJPA2HibernateManyToManyCRUDExample" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AppController.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AppController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/AppController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.93047035">
-              <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="35">
+              <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+              <folding>
+                <element signature="e#4950#4951#0" expanded="true" />
+                <element signature="e#4974#4975#0" expanded="true" />
+                <element signature="e#5068#5069#0" expanded="true" />
+                <element signature="e#5092#5093#0" expanded="true" />
+                <element signature="e#5168#5169#0" expanded="true" />
+                <element signature="e#5188#5189#0" expanded="true" />
+                <element signature="e#5295#5296#0" expanded="true" />
+                <element signature="e#5311#5312#0" expanded="true" />
+                <element signature="e#5373#5374#0" expanded="true" />
+                <element signature="e#5389#5390#0" expanded="true" />
+                <element signature="e#5467#5468#0" expanded="true" />
+                <element signature="e#5483#5484#0" expanded="true" />
+                <element signature="e#5651#5652#0" expanded="true" />
+                <element signature="e#5667#5668#0" expanded="true" />
+                <element signature="e#5655#5656#0" expanded="true" />
+                <element signature="e#5671#5672#0" expanded="true" />
+                <element signature="e#5749#5750#0" expanded="true" />
+                <element signature="e#5765#5766#0" expanded="true" />
+                <element signature="e#5843#5844#0" expanded="true" />
+                <element signature="e#5859#5860#0" expanded="true" />
+                <element signature="e#5937#5938#0" expanded="true" />
+                <element signature="e#5953#5954#0" expanded="true" />
+                <element signature="e#6174#6175#0" expanded="true" />
+                <element signature="e#6190#6191#0" expanded="true" />
+                <element signature="e#6268#6269#0" expanded="true" />
+                <element signature="e#6284#6285#0" expanded="true" />
+                <element signature="e#6362#6363#0" expanded="true" />
+                <element signature="e#6378#6379#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="990" column="33" lean-forward="true" selection-start-line="990" selection-start-column="33" selection-end-line="990" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="jsf" />
+        <option value="Jsp File" />
+      </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>xhtml</find>
+      <find>registration</find>
+      <find>ISO-8859-1</find>
+      <find>font-family</find>
+      <find>form-actions floatRight</find>
+      <find>Register</find>
+      <find>&lt;!DOCTYPE html&gt;</find>
+      <find>href=&quot;js</find>
+      <find>href=&quot;image</find>
+      <find>redi</find>
+      <find>.jsp</find>
+      <find>href=&quot;static/js/s</find>
+      <find>href=&quot;static/js/re</find>
+      <find>href=&quot;static/js/ow</find>
+      <find>href=&quot;static/js/fo</find>
+      <find>src=&quot;image</find>
+      <find>&quot;index</find>
+      <find>index</find>
+      <find>href=&quot;index</find>
+      <find>ادامه</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>utf-8</replace>
+      <replace>href=&quot;static/js</replace>
+      <replace>href=&quot;static/image</replace>
+      <replace>href=&quot;static/css/s</replace>
+      <replace>href=&quot;static/css/re</replace>
+      <replace>href=&quot;static/css/ow</replace>
+      <replace>href=&quot;static/css/fo</replace>
+      <replace>src=&quot;static/image</replace>
+      <replace>&quot;/</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\workSpace\tamrin\springMVCJPA2</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/configuration/AppConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userslist.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminArea.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/marketshop1/404.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/wishlist.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/about-us.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/AppController.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -60,294 +818,155 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1364" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringMVCJPA2HibernateManyToManyCRUDExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringMVCJPA2HibernateManyToManyCRUDExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringMVCJPA2HibernateManyToManyCRUDExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringMVCJPA2HibernateManyToManyCRUDExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringMVCJPA2HibernateManyToManyCRUDExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringMVCJPA2HibernateManyToManyCRUDExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringMVCJPA2HibernateManyToManyCRUDExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringMVCJPA2HibernateManyToManyCRUDExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringMVCJPA2HibernateManyToManyCRUDExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringMVCJPA2HibernateManyToManyCRUDExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringMVCJPA2HibernateManyToManyCRUDExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringMVCJPA2HibernateManyToManyCRUDExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringMVCJPA2HibernateManyToManyCRUDExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="SpringMVCJPA2HibernateManyToManyCRUDExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springMVCJPA2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVCJPA2HibernateManyToManyCRUDExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springMVCJPA2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVCJPA2HibernateManyToManyCRUDExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springMVCJPA2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVCJPA2HibernateManyToManyCRUDExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springMVCJPA2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spring4HelloWorldExample" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Tomcat Server.Unnamed">
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.271" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_SpringMVCJPA2HibernateManyToManyCRUDExample" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="64427" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workSpace\tamrin\springMVCJPA2\src\main\webapp\static" />
+      <recent name="C:\workSpace\tamrin\springMVCJPA2\src\main\webapp\WEB-INF\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workSpace\tamrin\springMVCJPA2\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\workSpace\tamrin\springMVCJPA2\src\main\webapp\static\fonts" />
+      <recent name="C:\workSpace\tamrin\springMVCJPA2" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="false" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -357,26 +976,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -389,23 +995,19 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
-      <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.271" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.271" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="SpringMVCJPA2HibernateManyToManyCRUDExample:war exploded">
+        <artifact name="SpringMVCJPA2HibernateManyToManyCRUDExample:war">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -419,7 +1021,6 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="64427" />
       </RunnerSettings>
@@ -470,15 +1071,340 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="SpringMVCJPA2HibernateManyToManyCRUDExample:war exploded" />
+          <artifact name="SpringMVCJPA2HibernateManyToManyCRUDExample:war" />
         </option>
       </method>
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
-    </list>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.271" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_SpringMVCJPA2HibernateManyToManyCRUDExample" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64427" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SpringMVCJPA2HibernateManyToManyCRUDExample" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -487,82 +1413,571 @@
       <changelist id="88fbd686-3034-4061-b15b-e345c3e7a2cb" name="Default" comment="" />
       <created>1519591008508</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1519591008508</updated>
       <workItem from="1519591011062" duration="707000" />
+      <workItem from="1524839446759" duration="718000" />
+      <workItem from="1524904843132" duration="2248000" />
+      <workItem from="1524908999971" duration="888000" />
+      <workItem from="1525685840557" duration="4864000" />
+      <workItem from="1525705004049" duration="2100000" />
+      <workItem from="1525711961164" duration="2268000" />
+      <workItem from="1525871268388" duration="853000" />
+      <workItem from="1525944263259" duration="7354000" />
+      <workItem from="1525957724435" duration="372000" />
+      <workItem from="1525958184708" duration="2214000" />
     </task>
+    <task id="LOCAL-00001" summary="gitignore dorost ro add kardam">
+      <created>1525705335788</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525705335788</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="707000" />
+    <option name="totallyTimeSpent" value="24586000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18582678" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3277311" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="right" id="Designer" order="3" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39728352" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32941177" />
+      <window_info id="Palette&#9;" order="2" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44033614" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27223927" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="JSF" order="4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gitignore dorost ro add kardam" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore dorost ro add kardam" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/AppController.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="12937">
+          <caret line="847" selection-start-line="847" selection-end-line="847" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/configuration/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19604613">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="425">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminArea.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10812">
+          <caret line="749" selection-start-line="749" selection-end-line="749" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14365">
+          <caret line="906" selection-start-line="906" selection-end-line="906" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12937">
+          <caret line="847" selection-start-line="847" selection-end-line="847" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/configuration/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="109" column="8" lean-forward="true" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/AppController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93047035">
-          <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="493">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.0.RELEASE/spring-web-4.3.0.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12733">
+          <caret line="749" selection-start-line="749" selection-end-line="749" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15402">
+          <caret line="906" selection-start-line="906" selection-end-line="906" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14399">
+          <caret line="847" selection-start-line="847" selection-end-line="847" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/configuration/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.0.RELEASE/spring-web-4.3.0.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="749" selection-start-line="749" selection-end-line="749" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="906" selection-start-line="906" selection-end-line="906" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="847" selection-start-line="847" selection-end-line="847" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.0.RELEASE/spring-web-4.3.0.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10812">
+          <caret line="749" selection-start-line="749" selection-end-line="749" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12937">
+          <caret line="847" selection-start-line="847" selection-end-line="847" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/configuration/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminArea.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/marketshop1/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="106" column="43" selection-start-line="106" selection-start-column="37" selection-end-line="106" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userslist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/wishlist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/springmvc/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+          <folding>
+            <element signature="e#4950#4951#0" expanded="true" />
+            <element signature="e#4974#4975#0" expanded="true" />
+            <element signature="e#5068#5069#0" expanded="true" />
+            <element signature="e#5092#5093#0" expanded="true" />
+            <element signature="e#5168#5169#0" expanded="true" />
+            <element signature="e#5188#5189#0" expanded="true" />
+            <element signature="e#5295#5296#0" expanded="true" />
+            <element signature="e#5311#5312#0" expanded="true" />
+            <element signature="e#5373#5374#0" expanded="true" />
+            <element signature="e#5389#5390#0" expanded="true" />
+            <element signature="e#5467#5468#0" expanded="true" />
+            <element signature="e#5483#5484#0" expanded="true" />
+            <element signature="e#5651#5652#0" expanded="true" />
+            <element signature="e#5667#5668#0" expanded="true" />
+            <element signature="e#5655#5656#0" expanded="true" />
+            <element signature="e#5671#5672#0" expanded="true" />
+            <element signature="e#5749#5750#0" expanded="true" />
+            <element signature="e#5765#5766#0" expanded="true" />
+            <element signature="e#5843#5844#0" expanded="true" />
+            <element signature="e#5859#5860#0" expanded="true" />
+            <element signature="e#5937#5938#0" expanded="true" />
+            <element signature="e#5953#5954#0" expanded="true" />
+            <element signature="e#6174#6175#0" expanded="true" />
+            <element signature="e#6190#6191#0" expanded="true" />
+            <element signature="e#6268#6269#0" expanded="true" />
+            <element signature="e#6284#6285#0" expanded="true" />
+            <element signature="e#6362#6363#0" expanded="true" />
+            <element signature="e#6378#6379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/about-us.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+          <folding>
+            <element signature="e#10324#10332#1#HTML" expanded="true" />
+            <element signature="e#10996#11004#1#HTML" expanded="true" />
+            <element signature="e#11586#11594#1#HTML" expanded="true" />
+            <element signature="e#12128#12136#1#HTML" expanded="true" />
+            <element signature="e#12617#12625#1#HTML" expanded="true" />
+            <element signature="e#13102#13110#1#HTML" expanded="true" />
+            <element signature="e#13439#13447#1#HTML" expanded="true" />
+            <element signature="e#13852#13860#1#HTML" expanded="true" />
+            <element signature="e#14591#14599#1#HTML" expanded="true" />
+            <element signature="e#15180#15188#1#HTML" expanded="true" />
+            <element signature="e#16332#16340#1#HTML" expanded="true" />
+            <element signature="e#16737#16745#1#HTML" expanded="true" />
+            <element signature="e#17182#17190#1#HTML" expanded="true" />
+            <element signature="e#17590#17598#1#HTML" expanded="true" />
+            <element signature="e#18813#18821#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="906" selection-start-line="906" selection-end-line="906" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="990" column="33" lean-forward="true" selection-start-line="990" selection-start-column="33" selection-end-line="990" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>SpringMVCJPA2HibernateManyToManyCRUDExample:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SpringMVCJPA2HibernateManyToManyCRUDExample</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -1,26 +1,20 @@
 package com.websystique.springmvc.controller;
 
-import java.util.List;
-import java.util.Locale;
-
-import javax.validation.Valid;
-
+import com.websystique.springmvc.model.User;
+import com.websystique.springmvc.model.UserProfile;
+import com.websystique.springmvc.service.UserProfileService;
+import com.websystique.springmvc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.bind.annotation.*;
 
-import com.websystique.springmvc.model.User;
-import com.websystique.springmvc.model.UserProfile;
-import com.websystique.springmvc.service.UserProfileService;
-import com.websystique.springmvc.service.UserService;
+import javax.validation.Valid;
+import java.util.List;
+import java.util.Locale;
 
 
 
@@ -42,12 +36,21 @@ public class AppController {
 	/**
 	 * This method will list all existing users.
 	 */
-	@RequestMapping(value = { "/", "/list" }, method = RequestMethod.GET)
+	@RequestMapping(value = { "/list" }, method = RequestMethod.GET)
 	public String listUsers(ModelMap model) {
 
 		List<User> users = userService.findAllUsers();
 		model.addAttribute("users", users);
 		return "userslist";
+	}
+
+	/**
+	 * This method will show admin area page.
+	 */
+	@RequestMapping(value = { "/" }, method = RequestMethod.GET)
+	public String index() {
+
+		return "index";
 	}
 
 	/**
@@ -149,6 +152,71 @@ public class AppController {
 	@ModelAttribute("roles")
 	public List<UserProfile> initializeProfiles() {
 		return userProfileService.findAll();
+	}
+
+	@RequestMapping(value = {"/notFound404"},method = RequestMethod.GET)
+	public String notFound(){
+		return "404";
+	}
+
+	@RequestMapping(value = {"/about-us"},method = RequestMethod.GET)
+	public String aboutUs(){
+		return "about-us";
+	}
+
+	@RequestMapping(value = {"/cart"},method = RequestMethod.GET)
+	public String cart(){
+		return "cart";
+	}
+
+	@RequestMapping(value = {"/category"},method = RequestMethod.GET)
+	public String category(){
+		return "category";
+	}
+
+	@RequestMapping(value = {"/checkout"},method = RequestMethod.GET)
+	public String checkout(){
+		return "checkout";
+	}
+	@RequestMapping(value = {"/compare"},method = RequestMethod.GET)
+	public String compare(){
+		return "compare";
+	}
+	@RequestMapping(value = {"/contact-us"},method = RequestMethod.GET)
+	public String contactUs(){
+		return "contact-us";
+	}
+	@RequestMapping(value = {"/elements"},method = RequestMethod.GET)
+	public String elements(){
+		return "elements";
+	}
+	@RequestMapping(value = {"/faq"},method = RequestMethod.GET)
+	public String faq(){
+		return "faq";
+	}
+	@RequestMapping(value = {"/login"},method = RequestMethod.GET)
+	public String login(){
+		return "login";
+	}
+	@RequestMapping(value = {"/product"},method = RequestMethod.GET)
+	public String product(){
+		return "product";
+	}
+	@RequestMapping(value = {"/register"},method = RequestMethod.GET)
+	public String register(){
+		return "register";
+	}
+	@RequestMapping(value = {"/search"},method = RequestMethod.GET)
+	public String search(){
+		return "search";
+	}
+	@RequestMapping(value = {"/sitemap"},method = RequestMethod.GET)
+	public String sitemap(){
+		return "sitemap";
+	}
+	@RequestMapping(value = {"/wishlist"},method = RequestMethod.GET)
+	public String wishlist(){
+		return "wishlist";
 	}
 
 }
