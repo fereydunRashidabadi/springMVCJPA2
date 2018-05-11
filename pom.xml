@@ -2,11 +2,11 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.websystique.springmvc</groupId>
-	<artifactId>SpringMVCJPA2HibernateManyToManyCRUDExample</artifactId>
+	<groupId>com.fanava.fanavaShop</groupId>
+	<artifactId>fanavaShop</artifactId>
 	<packaging>war</packaging>
 	<version>1.0.0</version>
-	<name>SpringMVCJPA2HibernateManyToManyCRUDExample</name>
+	<name>fanavaShop</name>
 
   	<properties>
 		<springframework.version>4.3.0.RELEASE</springframework.version>
@@ -111,12 +111,12 @@
 					<version>2.4</version>
 					<configuration>
 						<warSourceDirectory>src/main/webapp</warSourceDirectory>
-						<warName>SpringMVCJPA2HibernateManyToManyCRUDExample</warName>
+						<warName>fanavaShop</warName>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
 					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
-		<finalName>SpringMVCJPA2HibernateManyToManyCRUDExample</finalName>
+		<finalName>fanavaShop</finalName>
 	</build>
 </project>
