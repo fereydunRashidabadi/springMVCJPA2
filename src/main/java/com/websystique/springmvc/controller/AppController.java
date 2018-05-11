@@ -154,7 +154,7 @@ public class AppController {
 		return userProfileService.findAll();
 	}
 
-	@RequestMapping(value = {"/notFound404"},method = RequestMethod.GET)
+	@RequestMapping(value = {"/404"},method = RequestMethod.GET)
 	public String notFound(){
 		return "404";
 	}
@@ -191,9 +191,7 @@ public class AppController {
 		return "elements";
 	}
 	@RequestMapping(value = {"/faq"},method = RequestMethod.GET)
-	public String faq(){
-		return "faq";
-	}
+	public String faq(){ return "faq"; }
 	@RequestMapping(value = {"/login"},method = RequestMethod.GET)
 	public String login(){
 		return "login";
@@ -204,6 +202,10 @@ public class AppController {
 	}
 	@RequestMapping(value = {"/register"},method = RequestMethod.GET)
 	public String register(){
+		return "register";
+	}
+	@RequestMapping(value = {"/register"},method = RequestMethod.POST)
+	public String registerAsBuyer(){
 		return "register";
 	}
 	@RequestMapping(value = {"/search"},method = RequestMethod.GET)
