@@ -1,6 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html dir="rtl">
 <head>
@@ -8,7 +6,7 @@
 <meta name="format-detection" content="telephone=no" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href="static/image/favicon.png" rel="icon" />
-<title>ثبت نام</title>
+<title>موفقیت ثبت نام</title>
 <meta name="description" content="Responsive and clean html template design for any kind of ecommerce webshop">
 <!-- CSS Part Start-->
 <link rel="stylesheet" type="text/css" href="static/js/bootstrap/css/bootstrap.min.css" />
@@ -423,16 +421,16 @@
                 <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6"><a href="#"><img src="static/image/product/htc_logo-60x60.jpg" title="اچ تی سی" alt="اچ تی سی" /></a><a href="#">اچ تی سی</a></div>
                 <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6"><a href="#"><img src="static/image/product/palm_logo-60x60.jpg" title="پالم" alt="پالم" /></a><a href="#">پالم</a></div>
                 <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6"><a href="#"><img src="static/image/product/sony_logo-60x60.jpg" title="سونی" alt="سونی" /></a><a href="#">سونی</a> </div>
-                <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6"><a href="#"><img src="static/image/product/canon_logo-60x60.jpg" title="test" alt="test" /></a><a href="#">تست</a> </div>
-                <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6"><a href="#"><img src="static/image/product/apple_logo-60x60.jpg" title="test 3" alt="test 3" /></a><a href="#">تست 3</a></div>
-                <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6"><a href="#"><img src="static/image/product/canon_logo-60x60.jpg" title="test 5" alt="test 5" /></a><a href="#">تست 5</a> </div>
-                <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6"><a href="#"><img src="static/image/product/canon_logo-60x60.jpg" title="test 6" alt="test 6" /></a><a href="#">تست 6</a></div>
-                <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6"><a href="#"><img src="static/image/product/apple_logo-60x60.jpg" title="test 7" alt="test 7" /></a><a href="#">تست 7</a> </div>
-                <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6"><a href="#"><img src="static/image/product/canon_logo-60x60.jpg" title="test1" alt="test1" /></a><a href="#">تست1</a></div>
-                <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6"><a href="#"><img src="static/image/product/apple_logo-60x60.jpg" title="test2" alt="test2" /></a><a href="#">تست2</a></div>
+                <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6"><a href="#"><img src="static/image/product/canon_logo-60x60.jpg" title="test" alt="test" /></a><a href="#">test</a> </div>
+                <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6"><a href="#"><img src="static/image/product/apple_logo-60x60.jpg" title="test 3" alt="test 3" /></a><a href="#">test 3</a></div>
+                <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6"><a href="#"><img src="static/image/product/canon_logo-60x60.jpg" title="test 5" alt="test 5" /></a><a href="#">test 5</a> </div>
+                <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6"><a href="#"><img src="static/image/product/canon_logo-60x60.jpg" title="test 6" alt="test 6" /></a><a href="#">test 6</a></div>
+                <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6"><a href="#"><img src="static/image/product/apple_logo-60x60.jpg" title="test 7" alt="test 7" /></a><a href="#">test 7</a> </div>
+                <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6"><a href="#"><img src="static/image/product/canon_logo-60x60.jpg" title="test1" alt="test1" /></a><a href="#">test1</a></div>
+                <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6"><a href="#"><img src="static/image/product/apple_logo-60x60.jpg" title="test2" alt="test2" /></a><a href="#">test2</a></div>
               </div>
             </li>
-            <li class="custom-link"><a href="#">لینک های دلخواه</a></li>
+            <li class="custom-link"><a href="#">لینک دلخواه</a></li>
             <li class="dropdown wrap_custom_block hidden-sm hidden-xs"><a>بلاک سفارشی</a>
               <div class="dropdown-menu custom_block">
                 <ul>
@@ -447,7 +445,7 @@
                         <tr>
                           <td><h4>بلاک های محتوا</h4></td>
                           <td><h4>قالب واکنش گرا</h4></td>
-                          <td><h4>پشتیبانی ویژه</h4></td>
+                          <td><h4>Dedicated Support</h4></td>
                         </tr>
                         <tr>
                           <td>این یک بلاک مدیریت محتواست. شما میتوانید هر نوع محتوای html نوشتاری یا تصویری را در آن قرار دهید.</td>
@@ -498,176 +496,10 @@
   </div>
   <div id="container">
     <div class="container">
-      <!-- Breadcrumb Start-->
-      <ul class="breadcrumb">
-        <li><a href="/"><i class="fa fa-home"></i></a></li>
-        <li><a href="login">حساب کاربری</a></li>
-        <li><a href="register">ثبت نام</a></li>
-      </ul>
-      <!-- Breadcrumb End-->
       <div class="row">
         <!--Middle Part Start-->
-        <div class="col-sm-9" id="content">
-          <h1 class="title">ثبت نام حساب کاربری</h1>
-          <p>اگر قبلا حساب کاربریتان را ایجاد کرد اید جهت ورود به <a href="login">صفحه لاگین</a> مراجعه کنید.</p>
-          <form:form class="form-horizontal" method="POST"   modelAttribute="user">
-            <fieldset id="account">
-              <legend>اطلاعات شخصی شما</legend>
-              <div style="display: none;" class="form-group required">
-                <label class="col-sm-2 control-label">گروه مشتری</label>
-                <div class="col-sm-10">
-                  <div class="radio">
-                    <%--<label>
-                      <form:input path="userProfiles" type="" name="customer_group_id"/>
-                      پیشفرض</label>--%>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group required">
-                <label for="firstName" class="col-sm-2 control-label">نام</label>
-                <div class="col-sm-10">
-                  <form:input path="firstName" id="firstName" type="text" class="form-control"  placeholder="نام" value="" name="firstName"/>
-                </div>
-              </div>
-              <div class="form-group required">
-                <label for="lastName" class="col-sm-2 control-label">نام خانوادگی</label>
-                <div class="col-sm-10">
-                  <form:input type="text" class="form-control" id="lastName" path="lastName" placeholder="نام خانوادگی" value="" name="lastName"/>
-                </div>
-              </div>
-              <div class="form-group required">
-                <label for="ssoId" class="col-sm-2 control-label">نام کاربری</label><span class="text-danger">${ssoError}</span>
-                <div class="col-sm-10">
-                  <form:input type="text" class="form-control" id="ssoId" path="ssoId" placeholder="با حروف لاتین" value="" name="ssoId"/>
-                </div>
-              </div>
-              <div class="form-group required">
-                <label for="email" class="col-sm-2 control-label">آدرس ایمیل</label>
-                <div class="col-sm-10">
-                  <form:input path="email" id="email" type="email" class="form-control" placeholder="آدرس ایمیل" value="" name="email"/>
-                </div>
-              </div>
-              <div class="form-group required">
-                <label for="input-telephone" class="col-sm-2 control-label">شماره تلفن</label>
-                <div class="col-sm-10">
-                  <input type="tel" class="form-control" id="input-telephone" placeholder="شماره تلفن" value="" name="telephone">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="input-fax" class="col-sm-2 control-label">فکس</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="input-fax" placeholder="فکس" value="" name="fax">
-                </div>
-              </div>
-            </fieldset>
-            <fieldset id="address">
-              <legend>آدرس</legend>
-              <div class="form-group">
-                <label for="input-company" class="col-sm-2 control-label">شرکت</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="input-company" placeholder="شرکت" value="" name="company">
-                </div>
-              </div>
-              <div class="form-group required">
-                <label for="input-address-1" class="col-sm-2 control-label">آدرس 1</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="input-address-1" placeholder="آدرس 1" value="" name="address_1">
-                </div>
-              </div>
-              <div class="form-group required">
-                <label for="input-city" class="col-sm-2 control-label">شهر</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="input-city" placeholder="شهر" value="" name="city">
-                </div>
-              </div>
-              <div class="form-group required">
-                <label for="input-postcode" class="col-sm-2 control-label">کد پستی</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="input-postcode" placeholder="کد پستی" value="" name="postcode">
-                </div>
-              </div>
-              <div class="form-group required">
-                <label for="input-country" class="col-sm-2 control-label">کشور</label>
-                <div class="col-sm-10">
-                  <select class="form-control" id="input-country" name="country_id">
-                    <option value=""> --- لطفا انتخاب کنید --- </option>
-                    <option value="244">Aaland Islands</option>
-                    <option value="1">Afghanistan</option>
-                  </select>
-                </div>
-              </div>
-              <div class="form-group required">
-                <label for="input-zone" class="col-sm-2 control-label">شهر / استان</label>
-                <div class="col-sm-10">
-                  <select class="form-control" id="input-zone" name="zone_id">
-                    <option value=""> --- لطفا انتخاب کنید --- </option>
-                    <option value="3513">Aberdeen</option>
-                    <option value="3514">Aberdeenshire</option>
-                  </select>
-                </div>
-              </div>
-            </fieldset>
-            <fieldset>
-              <legend>رمز عبور شما</legend>
-              <div class="form-group required">
-                <label for="password" class="col-sm-2 control-label">رمز عبور</label>
-                <div class="col-sm-10">
-                  <form:input path="password" id="password" type="password" class="form-control" placeholder="رمز عبور" value="" name="password"/>
-                </div>
-              </div>
-              <div class="form-group required">
-                <label for="input-confirm" class="col-sm-2 control-label">تکرار رمز عبور</label>
-                <div class="col-sm-10">
-                  <input type="password" class="form-control" id="input-confirm" placeholder="تکرار رمز عبور" value="" name="confirm">
-                </div>
-              </div>
-            </fieldset>
-            <fieldset>
-              <legend>خبرنامه</legend>
-              <div class="form-group">
-                <label class="col-sm-2 control-label">اشتراک</label>
-                <div class="col-sm-10">
-                  <label class="radio-inline">
-                    <input type="radio" value="1" name="newsletter">
-                    بله</label>
-                  <label class="radio-inline">
-                    <input type="radio" checked="checked" value="0" name="newsletter">
-                    نه</label>
-                </div>
-              </div>
-            </fieldset>
-            <div class="buttons">
-              <div class="pull-right">
-                <input type="checkbox" value="1" name="agree">
-                &nbsp;من <a class="agree" href="#"><b>سیاست حریم خصوصی</b> را خوانده ام و با آن موافق هستم</a> &nbsp;
-                <input type="submit" class="btn btn-primary" value="ادامه" href="/register">
-              </div>
-            </div>
-          </form:form>
-        </div>
+        <div class="alert alert-success"><i class="fa fa-check-circle"></i> ${succes}</div>
         <!--Middle Part End -->
-        <!--Right Part Start -->
-        <aside id="column-right" class="col-sm-3 hidden-xs">
-          <h3 class="subtitle">حساب کاربری</h3>
-          <div class="list-group">
-            <ul class="list-item">
-              <li><a href="login">ورود</a></li>
-              <li><a href="register">ثبت نام</a></li>
-              <li><a href="#">فراموشی رمز عبور</a></li>
-              <li><a href="#">حساب کاربری</a></li>
-              <li><a href="#">لیست آدرس ها</a></li>
-              <li><a href="wishlist">لیست علاقه مندی</a></li>
-              <li><a href="#">تاریخچه سفارشات</a></li>
-              <li><a href="#">دانلود ها</a></li>
-              <li><a href="#">امتیازات خرید</a></li>
-              <li><a href="#">بازگشت</a></li>
-              <li><a href="#">تراکنش ها</a></li>
-              <li><a href="#">خبرنامه</a></li>
-              <li><a href="#">پرداخت های تکرار شونده</a></li>
-            </ul>
-          </div>
-        </aside>
-        <!--Right Part End -->
       </div>
     </div>
   </div>
@@ -688,7 +520,7 @@
             <h5>اطلاعات</h5>
             <ul>
               <li><a href="about-us">درباره ما</a></li>
-              <li><a href="about-us">اطلاعات 0 تومان</a></li>
+              <li><a href="about-us">اطلاعات ارسال</a></li>
               <li><a href="about-us">حریم خصوصی</a></li>
               <li><a href="about-us">شرایط و قوانین</a></li>
             </ul>
